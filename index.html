@@ -1,0 +1,398 @@
+<!doctype html>
+<html id="top" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+  <script type="text/javascript" src="main.js"></script>
+  <title>Yipeng Xue</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+  <!-- loading screen -->
+  <div class="loader-wrapper">
+    <div class="dots align-self-center d-flex justify-content-center">
+      <div id="dot1" class="dot"></div>
+      <div id="dot2" class="dot"></div>
+      <div id="dot3" class="dot"></div>
+      <div id="dot4" class="dot"></div>
+      <div id="dot5" class="dot"></div>
+      <div id="dot6" class="dot"></div>
+      <div id="dot7" class="dot"></div>
+    </div>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="#top"><img src="image/logo1.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#intro" class="nav-link">About</a></li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The Project</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#project-hd">Theme</a>
+            <a class="dropdown-item" href="#ideal">Ideal</a>
+            <a class="dropdown-item" href="#actual">Actual</a>
+            <a class="dropdown-item" href="#process">Process</a>
+            <a class="dropdown-item" href="#reflection">Reflection</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="#tech-hd" class="nav-link">The Technical</a></li>
+        <li class="nav-item"><a href="#outputs" class="nav-link">Output</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Video landing screen -->
+  <div id="home" class="video-background">
+    <div class="video-wrap">
+      <div id="video">
+        <video id="bgvideo" autoplay muted loop playsinline>
+          <source src="video/bgvideo.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption text-center">
+    <img class="landing" src="image/landing2.png">
+    <img class="mb-landing" src="image/xyp3.png">
+    <h2>An interactive transient installation<br>that connects passersby through musical discovery</h2>
+    <a href="#intro"><i class="fas fa-angle-down"></i></a>
+  </div>
+
+  <!-- Intro -->
+  <div id="intro" class="container-fluid padding">
+    <div class="row padding mx-1920">
+      <div class="col-lg-5 d-flex">
+        <img src="image/me.png" class="img-fluid rounded-lg mx-auto my-auto shadow">
+      </div>
+      <div class="col-md-12 col-lg-7">
+        <h1 class="text-dark">Hi there !<a id="email" href="mailto:xyp1997coc@gmail.com"><i class="fas fa-envelope"></i></a></h1>
+        <p class="self-intro text-left text-dark">
+          I'm <span class="name">Yipeng Xue</span> aka <span class="name">Shawn</span>,<br>
+          <span>the</span>
+          <span class="txt-type" data-wait="2500"
+            data-words='["Technical Lead", "Programmer", "UE4 Developer", "UX Designer"]'></span>
+          <span id="cursor">&nbsp;</span>
+          <span>of TING.</span>
+        </p>
+        <p class="nt text-dark">This is my portfolio showcasing our team's project TING and how we made it here from
+          scratch.</p>
+        <a class="btn btn-outline-dark btn-lg" href="#project-hd" role="button">Get Started</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project -->
+
+  <!---Fixed background--->
+  <div id="project-hd" class="container-fluid parallax p-light">
+    <div class="container-fluid">
+      <h1>Ting</h1>
+      <h2>The project</h2>
+    </div>
+  </div>
+
+  <div id="project" class="container-fluid mx-1920">
+    <div class="row padding justify-content-center section1">
+      <div class="col-md-12 col-lg-10 col-xl-8">
+        <h2>“Exploring the Potential for Human Connection through No-Touch/Own-Touch Interactive Experiences”</h2>
+        <h2 class="text-right">- Main theme</h2>
+      </div>
+    </div>
+    <hr>
+    <section id="ideal" class="row section2">
+      <figure class="col-sm-12 col-md-10 col-lg-8 d-flex flex-column image">
+        <img src="image/sketch.png" class="figure-img rounded-lg float-right" alt="">
+        <figcaption class="figure-caption">Sketch by Nan Xiao</figcaption>
+      </figure>
+      <div class="col-md-12 col-lg-8 col-xl-6 panel">
+        <div class="text-left">
+          <h1>Ideal</h1>
+          <p class="pt-4">We had this vision of creating an atmospheric communicational space through the combination of
+            environment and human behaviors. By setting up a space with artistic conception, Ting provides a situational
+            space for people to recognize and engage in, thus affects their behaviors. </p>
+          <p class="pt-4">To create an immersive and engaging experience of musical exploration which forms or enhances
+            the connection between passersby, Ting takes the form of a stepping path and provides music and light
+            feedback each time people take a step on it. It consists of interactive stepping stones and lily pads so
+            that every time a user steps on one, the corresponding music note and light effects are triggered.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="actual" class="row section3">
+      <figure class="col-sm-12 col-md-10 col-lg-8 d-flex flex-column justify-content-end image">
+        <img src="image/project.JPEG" class="figure-img rounded-lg float-right" alt="">
+        <figcaption class="figure-caption text-right">Ting in IxD</figcaption>
+      </figure>
+      <div class="col-md-12 col-lg-6 col-xl-6 panel">
+        <div class="text-left">
+          <h1>Actual</h1>
+          <p class="pt-4">The final product we delivered followed the ideal vision we had for Ting. It has 14 functional
+            stepping stones and lily pads and covers roughly 15 square meters. We chose guzheng - a calm and elegant
+            ancient Chinese instrument for music samples paired with the visual of running water projected onto the
+            field. The music and light feedback includes corresponding guzheng notes, ripple effect and falling petals effect.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container video-wrap d-flex flex-column justify-content-center text-center">
+      <h3>Check out our project video &nbsp;<i class="fas fa-angle-down"></i></h3>
+      <div class="container iframe-wrap col-xl-10">
+        <iframe width="840" height="472" src="https://www.youtube.com/embed/WBanJsnQ_M0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+
+    <hr>
+
+    <div id="process" class="container-fluid">
+      <div class="row padding d-flex justify-content-center">
+        <div class="col-md-10 col-lg-6">
+          <h1>Process</h1>
+          <p>To get to the final form of Ting, the team discussed through various takes like music see-saw and laser piano. We evaluated the pros and cons of each idea and eventually agreed that a stepping path is most suitable for our concept and is the one we can best use our expertise in.</p>
+          <p>We faced the choice between motion capture with depth camera and force sensitive resistor with arduino, for detecting steps on the stones and lily pads. Even though using a depth camera helps us get around all the wiring issues, we believe there are more risks going down that path as things could go very wrong if the algorithm for detecting body movements is flawed. Considering that we have no experience in using depth cameras and may not afford the learning cost of it, we decided  to take the safe route and use arduino.
+          </p>
+          <p>Along the way of making a functional prototype,  the team explored different musical instruments for the best sound effects, and discussed the most feasible structure of the stones and lilypads, while I mainly focused on designing and creating the visual of running water in unreal engine 4. I once found a plugin called UIWS which helps create interactive water planes, but the details in the visual can not be picked up by the projector. After that I learned how to make water materials in the engine and created toon style one myself. Fortunately the new water material looked great in the projection, and we kept it in both the prototype and the final product.
+          </p>
+        </div>
+        
+      </div>
+      <div class="container-fluid d-flex justify-content-center gallery">
+        <div class="row padding">
+          <div class="column">
+            <div class="grid-item">
+              <h3>Early brainstorm</h3>
+              <a href="image/process1.JPG" target="_blank"><img src="image/process1.JPG" ></a>
+              
+            </div>
+            <div class="grid-item">
+              <h3>LED test</h3>
+              <a href="image/process5.JPEG" target="_blank"><img src="image/process5.JPEG"></a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="grid-item">
+              <h3>Early design of Ting</h3>
+              <a href="image/process3.JPG" target="_blank"><img src="image/process3.JPG"></a>
+              
+            </div>
+            <div class="grid-item">
+              <h3>Stone ptototype test</h3>
+              <a href="image/process6.JPG" target="_blank"><img src="image/process6.JPG"></a>
+              
+            </div>
+          </div>
+          <div class="column">
+            <div class="grid-item">
+              <h3>Depth camera test</h3>
+              <a href="image/process4.JPEG" target="_blank"><img src="image/process4.JPEG"></a>
+            </div>
+            <div class="grid-item">
+              <h3>Early prototype w/ UIWS</h3>
+              <a href="image/process7.JPG" target="_blank"><img src="image/process7.JPG"></a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <hr>
+
+    <div id="reflection" class="container-fluid">
+      <div class="row padding d-flex justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-6">
+          <h1>Reflection</h1>
+          <p>In the exhibition, we are delighted to see all people loving our work. Seeing strangers enjoy the music and visuals together and corporate in making music, we believe we have managed to establish human connection through this project.</p>
+          <p>To make Ting better, the team thought about expanding the playfield area so more people can play with the installation at a time without constantly bumping into each other. We should also enhance the connections which helps improve security and lower the likelihood of disconnections.</p>
+        </div>
+      </div>
+    </div>
+    <h3>Ting in IxD &nbsp;<i class="fas fa-angle-down"></i></h3>
+  </div>
+
+  <div class="container-fluid carousel-wrap d-flex justify-content-center">
+    <div id="slides" class="carousel slide col-md-10 col-lg-6" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/exhibit1.JPG">
+        </div>
+        <div class="carousel-item">
+          <img src="image/exhibit2.JPEG">
+        </div>
+        <div class="carousel-item">
+          <img src="image/exhibit3.JPEG">
+        </div>
+        <div class="carousel-item">
+          <img src="image/exhibit4.JPEG">
+        </div>
+        <div class="carousel-item">
+          <img src="image/exhibit5.JPEG">
+        </div>
+        <div class="carousel-item">
+          <img src="image/exhibit6.JPEG">
+        </div>
+      </div>
+      <a class="carousel-control-prev" data-target="#slides" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" data-target="#slides" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Tech -->
+
+  <!---Fixed background--->
+  <div id="tech-hd" class="container-fluid parallax p-dark">
+    <div class="container-fluid">
+      <h1>Make-up</h1>
+      <h2>The Technical</h2>
+    </div>
+  </div>
+
+  <div id="tech" class="container-fluid">
+    <div class="mx-1920">
+      <div class="row padding d-flex justify-content-center">
+        <div class="col-md-10 col-lg-7">
+          <p>The whole system of Ting is divided into two parts: arduino and unreal engine 4(UE4). Specifically, arduino handles the detection of users stepping on the stones, while UE4 takes care of generating visuals and triggering music and light feedback correctly. On the Arduino side, we use force sensitive resistors as signal input and Neopixel LED strips as a part of light effects. We used a UE4 plugin called UE4duino for the communication between arduino and Unreal Engine 4, so that a signal is sent to UE4 whenever a valid step is detected by arduino. </p>
+          <p>The physical construction of Ting is rather simple, but not easy. We used CNC to cut plywood into stones and lily pads, installed LED strips and force sensitive resistors onto them and processed ethernet cables so they’re replugable for Ting’s connection. This process includes soldering, woodworking and wiring.</p>
+          <p>In my part, I wrote the arduino program and the UE4 project. In addition, I made a water material and ripple particle effect in Unreal to create the visual of running water. To further enhance the visuals, I looked for assets that have a suitable style for our project and ended up adding the falling petals effect and lotus floating on the water. I’m always fascinated by the power of unreal engine but never got a chance to put it into practice in scool’s projects. I really appreciate the opportunity offered by this challenging project which allowed me to dive deeper into unreal engine as an inexperienced user.</p>
+        </div>
+      </div>
+  
+      <div class="container-fluid d-flex justify-content-center gallery">
+        <div class="row padding">
+          <div class="column">
+            <div class="grid-item">
+              <h3>Using CNC</h3>
+              <a href="image/tech1.JPG" target="_blank"><img src="image/tech1.JPG" ></a>
+            </div>
+            <div class="grid-item">
+              <h3>Lilypad sideview</h3>
+              <a href="image/tech5.JPG" target="_blank"><img src="image/tech5.JPG"></a>
+            </div>
+            <div class="grid-item">
+              <h3>Ripple particle effect</h3>
+              <a href="image/tech9.PNG" target="_blank"><img src="image/tech9.PNG"></a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="grid-item">
+              <h3>Using CNC</h3>
+              <a href="image/tech2.JPG" target="_blank"><img src="image/tech2.JPG"></a>
+            </div>
+            <div class="grid-item">
+              <h3>Painted lilypads</h3>
+              <a href="image/tech6.JPG" target="_blank"><img src="image/tech6.JPG"></a>
+            </div>
+            <div class="grid-item">
+              <h3>High-fidelity prototype</h3>
+              <a href="image/tech10.PNG" target="_blank"><img src="image/tech10.PNG"></a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="grid-item">
+              <h3>Connection</h3>
+              <a href="image/tech3.JPG" target="_blank"><img src="image/tech3.JPG"></a>
+            </div>
+            <div class="grid-item">
+              <h3>How UE4 handles signal</h3>
+              <a href="image/tech7.png" target="_blank"><img src="image/tech7.png"></a>
+            </div>
+            <div class="grid-item">
+              <h3>Frustration of troubleshooting</h3>
+              <a href="image/tech11.JPEG" target="_blank"><img src="image/tech11.JPEG"></a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="grid-item">
+              <h3>8-pin port</h3>
+              <a href="image/tech4.JPG" target="_blank"><img src="image/tech4.JPG"></a>
+            </div>
+            <div class="grid-item">
+              <h3>Water material</h3>
+              <a href="image/tech8.PNG" target="_blank"><img src="image/tech8.PNG"></a>
+            </div>
+            <div class="grid-item">
+              <h3>Water visuals</h3>
+              <a href="image/tech12.PNG" target="_blank"><img src="image/tech12.PNG"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr id="outputs-hd">
+  </div>
+  
+  <div id="outputs" class="container-fluid">
+    <div class="row padding d-flex justify-content-center text-center">
+      <div id="outputs-matrix">
+        <h1>Outputs</h1>
+        <div class="container-fluid">
+          <a class="box" href="https://drive.google.com/file/d/1KxXKRVj19MQc0qBfEHtyFeCftivfU3m_/view?usp=sharing2" target="_blank">
+            <div class="content">
+              <i class="fas fa-comment-dots"></i>
+              <h2>Pitch</h2>
+            </div>
+          </a>
+          <a class="box" href="https://drive.google.com/file/d/1wgrgxbgs_KBIc_NQOI7zWxqC9KY_dyUG/view?usp=sharing" target="_blank">
+            <div class="content">
+              <i class="fas fa-file-alt"></i>
+              <h2>Proposal Report</h2>
+            </div>
+          </a>
+          <a class="box" href="https://www.youtube.com/watch?v=bn9g8O5wngE&ab_channel=shikixiao" target="_blank">
+            <div class="content">
+              <i class="fas fa-play-circle"></i>
+              <h2>Prototype Video</h2>
+            </div>
+          </a>
+          <a class="box" href="https://miro.com/app/board/o9J_koVMlQU=/" target="_blank">
+            <div class="content">
+              <i class="fas fa-book"></i>
+              <h2>Journals</h2>
+            </div>
+          </a>
+          <a class="box" href="https://www.youtube.com/watch?v=WBanJsnQ_M0&ab_channel=SuMmerYang" target="_blank">
+            <div class="content">
+              <i class="fas fa-video"></i>
+              <h2>Kickstarter Video</h2>
+            </div>
+          </a>
+          <a class="box" href="https://ixd-exhibit.uqcloud.net/2020_2/ting/" target="_blank">
+            <div class="content">
+              <i class="fas fa-home"></i>
+              <h2>Project Website</h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <h4 class="text-center">Copyright &copy; University of Queensland, Ting 2020</h4>
+  </div>
+
+  <div class="end"></div>
+
+  <script type="text/javascript" src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="colcade.js"></script>
+</body>
+
+</html>
